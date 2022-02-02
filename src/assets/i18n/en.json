@@ -1,0 +1,27 @@
+{
+    "apiMessageKeys": {
+        "000": "Operation failed .. Something went wrong!",
+        "010101-002": "Sample Title Is Required.",
+        "010101-003": "Sample Description Is Required",
+        "010102-004": "Sample Created successfully.",
+        "010201-005": "UserName Is Required",
+        "010201-006": "Password Is Required",
+        "010201-007": "Client Id Is Required",
+        "010201-008": "Secret key Is Required",
+        "010201-009": "Invalid Credentials",
+        "010201-017": "Invalid Token",
+        "010201-010": "Invalid ClientID and Secret",
+        "010201-011": "Account Is Locked Out",
+        "010202-012": "Request Token Succeeded",
+        "010201-013": "UserName Is Required.",
+        "010201-014": "Access Token Is Required.",
+        "010201-015": "Refresh Token Is Required.",
+        "010201-016": "Access Token Is Invalid",
+        "010202-018": "Access Token Refreshed Successfully",
+        "010201-019": "UserName Is Required.",
+        "010201-020": "Refresh Token Is Required.",
+        "010201-021": "Refresh Token Is Not Found.",
+        "010202-022": "Token Revoked Successfully",
+        "010705-93": "Email Is Not Found"
+    }
+}

@@ -1,7 +1,7 @@
 export const environment = {
-  production: true,
+  production: false,
   qa: false,
-  dev: false,
+  dev: true,
   clientAppCode: 'ecommerce',
   // apiClientId: '',
   // apiClientSecret: '',
