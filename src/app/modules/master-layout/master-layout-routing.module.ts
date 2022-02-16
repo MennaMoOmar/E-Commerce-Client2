@@ -3,17 +3,16 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { MasterLayoutScreen } from './screens/master-layout/master-layout.screen';
 import { HomeComponent } from '../home/screens/home/home.component';
-import { LoginComponent } from '../authentication/screens/login/login.component';
+import { AuthGuardService } from '../authentication/guards/auth-guard.service';
 
 const routes: Routes = [
   {
     path: '',
     component: MasterLayoutScreen,
-    // canActivateChild: [AuthGuard],
+    // canActivateChild: [AuthGuardService],
     children: [
       { path: '', redirectTo: '/home', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
-      { path: 'login', component: LoginComponent },
       {
         path: 'product',
         loadChildren: () =>

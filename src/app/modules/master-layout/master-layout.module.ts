@@ -6,6 +6,9 @@ import { MasterLayoutRoutingModule } from './master-layout-routing.module';
 import { MasterLayoutScreen } from './screens/master-layout/master-layout.screen';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { MasterEventsLinkerService } from './services/master-events-linker.service';
+import { ProductModule } from '../products/product.module';
+import { CommonCustomModule } from '../common/common-custom.module';
+import { HomeModule } from '../home/home.module';
 
 @NgModule({
   declarations: [MasterLayoutScreen, NavBarComponent],

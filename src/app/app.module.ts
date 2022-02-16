@@ -18,7 +18,7 @@ import { MasterLayoutModule } from './modules/master-layout/master-layout.module
     BrowserModule,
     HttpClientModule,
     AppRoutingModule, //note:must be called last in optopnal cases
-    MasterLayoutModule,
+    MasterLayoutModule
   ],
   providers: [
     // AppConfig,

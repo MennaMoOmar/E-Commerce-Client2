@@ -6,5 +6,5 @@ export const environment = {
   // apiClientId: '',
   // apiClientSecret: '',
   // apiUrl: 'https://',
-  apiUrl: 'http://localhost:5000/',
+  apiUrl: 'http://localhost:3001/api/',
 };

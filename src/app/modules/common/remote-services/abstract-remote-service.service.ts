@@ -1,10 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-@Component({
-  selector: 'app-product-details',
-  templateUrl: './product-details.component.html',
-  styleUrls: ['./product-details.component.scss'],
+import { Injectable } from '@angular/core';
+
+import { environment } from 'src/environments/environment';
+
+@Injectable({
+  providedIn: 'root',
 })
-export class ProductDetailsComponent implements OnInit {
+export class AbstractRemoteServiceService {
   /******************* Variables *******************/
   /******************* Constructor *******************/
   constructor() {}
@@ -12,4 +13,7 @@ export class ProductDetailsComponent implements OnInit {
   /******************* Angular Lifecycle *******************/
   ngOnInit(): void {}
   /******************* Functions *******************/
+  get apiURl() {
+    return environment.apiUrl;
+  }
 }
